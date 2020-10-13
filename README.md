@@ -1,6 +1,6 @@
 # About 
 
-This is the GitHub repository for the manuscript *Work in progress* [1]. This repository contains all the code required for reproducing the modelling results presented in the manuscript. 
+This is the GitHub repository for the manuscript Fine-tuning of energy levels regulates SUC2 via a SNF1-dependent feedback loop  [1]. This repository contains all the code required for reproducing the modelling results presented in the manuscript. 
 
 The aim of the modelling was to elucidate the mechanism behind recently collected single-cell time-lapse data of the *SUC2*-gene expression upon long term glucose starvation (Fig. 1) in *Saccharomyces cerevisiae*. To model the single-cell time-lapse data in an ODE-framework, two methods were used and compare. The standard two stage (STS) approach [2], and non-linear mixed effects (NLME) modelling [3]. What causes the decrease in *SUC2*-expression (Fig. 1) is currently unknown. In the manuscript we propose, by combining dynamic modelling and experimental data, a mechanism for this decrease.  
 
@@ -59,7 +59,7 @@ Three programming languages are required for reproducing the results, Julia (ver
 
 
 ## References 
-1. Work in progress 
+1. Persson S, Welkenhysen N, Shashkova S, Cvijovic M. Fine-tuning of energy levels regulates SUC2 via a SNF1-dependent feedback loop. Front.  Physiol. 2020; 11:954 
 2. Karlsson M, Janzén DL, Durrieu L, Colman-Lerner A, Kjellsson MC, Cedersund G. Nonlinear mixed-effects modelling for single cell estimation: when, why, and how to use it. BMC systemsbiology. 2015;9(1):52.
 3. Davidian M, Giltinan DM. Nonlinear models for repeated measurement data: an overview and update. Journal of agricultural, biological, and environmental statistics. 2003;8(4):387.
 4. Bezanson J, Edelman A, Karpinski S, Shah VB. Julia: A Fresh Approach to Numerical Computing. SIAM. 2017;59(1):65–98.
